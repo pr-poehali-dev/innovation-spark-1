@@ -1,12 +1,12 @@
 import { Pill } from "./Pill";
 
 const stats = [
-  { nick: "badyyyi", role: "AWP", rating: 1.56, flag: "🇷🇺" },
-  { nick: "kkazerx", role: "Entry", rating: 1.43, flag: "🇧🇾" },
-  { nick: "zachem", role: "IGL", rating: 1.20, flag: "🇷🇺" },
-  { nick: "ontqx<3", role: "Support", rating: 1.15, flag: "🇱🇻" },
-  { nick: "zert1x", role: "Lurker", rating: 1.00, flag: "🇩🇪" },
-  { nick: "z1rox", role: "Замена", rating: 0.67, flag: "🇷🇺" },
+  { nick: "badyyyi", role: "AWP", rating: 1.56, flag: "🇷🇺", highlight: true },
+  { nick: "kkazerx", role: "Entry", rating: 1.43, flag: "🇧🇾", highlight: true },
+  { nick: "zachem", role: "IGL", rating: 1.20, flag: "🇷🇺", highlight: false },
+  { nick: "ontqx<3", role: "Support", rating: 1.15, flag: "🇱🇻", highlight: false },
+  { nick: "zert1x", role: "Lurker", rating: 1.00, flag: "🇩🇪", highlight: false },
+  { nick: "z1rox", role: "Замена", rating: 0.67, flag: "🇷🇺", highlight: false },
 ];
 
 const getRatingColor = (rating: number) => {
@@ -49,7 +49,12 @@ export const Stats = () => {
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-2">
-                      <span className="font-sentient text-base">{player.nick}</span>
+                      <div>
+                        <span className="font-sentient text-base">{player.nick}</span>
+                        {player.highlight && (
+                          <div className="h-0.5 bg-green-400 rounded-full mt-0.5 shadow-[0_0_6px_rgba(74,222,128,0.8)]" />
+                        )}
+                      </div>
                       <span className="font-mono text-xs text-foreground/40 uppercase">{player.role}</span>
                     </div>
                     <span className={`font-mono text-sm font-bold ${getRatingColor(player.rating)}`}>
