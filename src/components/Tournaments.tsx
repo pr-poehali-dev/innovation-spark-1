@@ -4,10 +4,10 @@ const tournaments = [
   {
     name: "Starladder",
     date: "7 марта 2026",
-    status: "W",
-    statusLabel: "ПОБЕДА",
-    statusColor: "text-green-400 border-green-400/30 bg-green-400/10",
-    dotColor: "bg-green-400",
+    status: "LIVE",
+    statusLabel: "ИДЁТ СЕЙЧАС",
+    statusColor: "text-red-400 border-red-400/30 bg-red-400/10",
+    dotColor: "bg-red-400 animate-pulse",
   },
   {
     name: "ESL Cesis",
