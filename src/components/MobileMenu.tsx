@@ -11,10 +11,12 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: "О нас", href: "#about" },
-    { name: "Портфолио", href: "#portfolio" },
-    { name: "Инсайты", href: "#insights" },
-    { name: "Контакты", href: "#contact" },
+    { name: "Состав", href: "#roster" },
+    { name: "Турниры", href: "#tournaments" },
+    { name: "Достижения", href: "#achievements" },
+    { name: "Статистика", href: "#stats" },
+    { name: "Каналы", href: "#socials" },
+    { name: "FAQ", href: "#faq" },
   ];
 
   const handleLinkClick = () => {
@@ -69,11 +71,11 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
 
             <div className="mt-6">
               <a
-                href="#sign-in"
+                href="#socials"
                 onClick={handleLinkClick}
                 className="inline-block text-xl font-mono uppercase text-primary transition-colors ease-out duration-150 hover:text-primary/80 py-2"
               >
-                Войти
+                Telegram
               </a>
             </div>
           </nav>
