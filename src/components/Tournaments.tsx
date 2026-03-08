@@ -26,7 +26,7 @@ export const Tournaments = () => {
         <div className="text-center mb-16">
           <Pill className="mb-6">ТУРНИРЫ</Pill>
           <h2 className="text-4xl md:text-5xl font-sentient">
-            Ближайшие <i className="font-light">события</i>
+            Ближайшие события
           </h2>
         </div>
 

@@ -16,7 +16,7 @@ export function Hero() {
         <Pill className="mb-6">CS2 TEAM</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           Mental <br />
-          <i className="font-light">Team</i>
+          Team
         </h1>
         <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[440px] mx-auto">
           Профессиональная команда по Counter-Strike 2. Играем на победу.

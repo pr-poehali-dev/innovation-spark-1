@@ -28,7 +28,7 @@ export const Stats = () => {
         <div className="text-center mb-16">
           <Pill className="mb-6">СТАТИСТИКА</Pill>
           <h2 className="text-4xl md:text-5xl font-sentient">
-            Рейтинг <i className="font-light">игроков</i>
+            Рейтинг игроков
           </h2>
           <p className="font-mono text-sm text-foreground/40 mt-4">HLTV Rating 2.0</p>
         </div>

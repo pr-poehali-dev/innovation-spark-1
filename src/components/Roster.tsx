@@ -25,7 +25,7 @@ export const Roster = () => {
         <div className="text-center mb-16">
           <Pill className="mb-6">СОСТАВ</Pill>
           <h2 className="text-4xl md:text-5xl font-sentient">
-            Наша <i className="font-light">команда</i>
+            Наша команда
           </h2>
         </div>
 

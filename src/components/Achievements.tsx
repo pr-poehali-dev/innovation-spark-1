@@ -24,7 +24,7 @@ export const Achievements = () => {
         <div className="text-center mb-16">
           <Pill className="mb-6">ДОСТИЖЕНИЯ</Pill>
           <h2 className="text-4xl md:text-5xl font-sentient">
-            Наши <i className="font-light">победы</i>
+            Наши победы
           </h2>
         </div>
 

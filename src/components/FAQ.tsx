@@ -34,7 +34,7 @@ export const FAQ = () => {
         <div className="text-center mb-16">
           <Pill className="mb-6">FAQ</Pill>
           <h2 className="text-4xl md:text-5xl font-sentient">
-            Частые <i className="font-light">вопросы</i>
+            Частые вопросы
           </h2>
         </div>
 
